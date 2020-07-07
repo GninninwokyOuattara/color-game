@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+}
+
+.bg-blue {
+    background-color: rgb(59, 118, 173);
+}
+
+.text-blue {
+    color: rgb(59, 118, 173);
+}
+
+#navLink {
+    color: rgb(59, 118, 173);
+}
+
+#mainBar {
+    font-weight: 700;
+}
+
+.b {
+    border: 2px solid red;
+}
+
+.chosen {
+    background-color: rgb(59, 118, 173);
+    color: white;
+    transition: background-color 2s;
+
+}
+
+h1 {
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+
+/* table {
+    width: 100%;
+} */
+
+/* td {
+
+    border: 1px solid red;
+    border-spacing: 10px;
+    border-collapse: separate;
+
+    border-radius: 10%;
+    height: 20px;
+} */
+
+td {
+    padding: 10px;
+    /* background-color: blueviolet; */
+    width: 33%;
+    height: 135px;
+    border-radius: 10%;
+    transition: background-color 2s;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.disable {
+    display: none;
+}
+
+.message {
+    color: #000000;
+    font-weight: 100;
+}
+
+
+.m-invisible {
+    color: #ffffff;
+}
